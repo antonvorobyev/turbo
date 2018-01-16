@@ -16,6 +16,12 @@ if tool == 'editorconfig':
         print('editor configuration initialized')
     else:
         print('turbo editorconfig init')
+elif tool == 'turbo':
+    if command == 'install':
+        print('turbo installation')
+    else:
+        print('turbo turbo install')
 else:
     print('turbo editorconfig')
+    print('turbo turbo')
 
